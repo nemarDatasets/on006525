@@ -1,0 +1,11 @@
+{
+  "EEGCoordinateSystem": "CapTrak",
+  "EEGCoordinateUnits": "m",
+  "AnatomicalLandmarkCoordinateSystem": "CapTrak",
+  "AnatomicalLandmarkCoordinateUnits": "m",
+  "AnatomicalLandmarkCoordinates": {
+    "NAS": [0.1086,0,0],
+    "LPA": [-0.002599999999999998,0.0858,0],
+    "RPA": [0.002600000000000009,-0.0858,0]
+  }
+}
