@@ -13,7 +13,7 @@
     "Authors": [
         "Computational Neuroimaging and Neuroengineering Lab ar the University of Oklahoma"
     ],
-    "Acknowledgements": "OPTIONAL. Text acknowledging contributions of individuals or institutions beyond those listed in Authors or Funding",
+    "Acknowledgements": "Please cite the paper with doi: 10.1088/1741-2552/ab7ad3 that reported the dataset for the first time.",
     "HowToAcknowledge": "OPTIONAL. Instructions how researchers using this dataset should acknowledge the original authors. This field can also be used to define a publication that should be cited in publications that use the dataset",
     "Funding": [
         "OPTIONAL. List of sources of funding (grant numbers)"
