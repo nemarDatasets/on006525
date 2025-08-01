@@ -23,7 +23,10 @@
     ],
     "ReferencesAndLinks": [
         "OPTIONAL. List of references to publication that contain information on the dataset, or links",
-        "https://github.com/Donders-Institute/bidscoin"
+        "https://github.com/Donders-Institute/bidscoin",
+        "doi: 10.1088/1741-2552/ab7ad3",
+        "doi: 10.1016/j.neuroimage.2022.119461",
+        "doi: 10.1016/j.neuroimage.2025.121408"
     ],
     "DatasetDOI": ""
 }
