@@ -1,35 +1,102 @@
 {
   "version": "2.0",
-  "dataset_id": "on006525",
-  "source": "openneuro",
-  "source_id": "ds006525",
+  "pipeline_stage": "enriched",
   "title": "Resting EEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Computational Neuroimaging and Neuroengineering Lab ar the University of Oklahoma": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006525.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006525",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006525",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1088/1741-2552/ab7ad3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2022.119461",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2025.121408",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "anat",
-    "eeg"
-  ],
-  "datatypes": [
-    "anat",
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "OPTIONAL. List of sources of funding (grant numbers)"
     }
   ],
-  "acknowledgements": "Please cite the paper with doi: 10.1088/1741-2552/ab7ad3 that reported the dataset for the first time."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "anat",
+    "eeg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "3.2 GB (69 files)"
+  ],
+  "formats": [
+    ".gz",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "A resting-state EEG dataset acquired from 128 channels at 1000 Hz sampling rate using an Electrical Geodesics amplifier system, complemented by structural MRI data from a GE MR750 scanner. The dataset includes preprocessed EEG signals with artifact removal and channel interpolation, as well as high-resolution anatomical imaging. This multimodal neuroimaging resource enables investigation of whole-brain electrophysiological functional connectivity dynamics during rest.",
+  "methods_description": "EEG data were recorded using a 128-channel Amps 300 amplifier (Electrical Geodesics Inc.) at 1000 Hz sampling frequency during resting state. Preprocessing included band-pass filtering (0.5–100 Hz), notch filtering (58–62 Hz), artifact removal, bad channel interpolation, and re-referencing to average. Data were downsampled to 250 Hz. Structural MRI was acquired using a GE MR750 scanner with BRAVO sequence (FOV 240 mm, 180 axial slices).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "functional connectivity"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "EGI Amps 300"
+    },
+    {
+      "term": "GE MR750"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "preprocessing"
+    },
+    {
+      "term": "artifact removal"
+    }
+  ],
+  "source_hash": "55b3b0e4a23cc9247ae1c38cab606e24c3f1b93e741ab25761d2598909602790"
 }
