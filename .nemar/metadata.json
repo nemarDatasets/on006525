@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006525",
+  "source": "openneuro",
+  "source_id": "ds006525",
+  "title": "Resting EEG",
+  "authors": {
+    "Computational Neuroimaging and Neuroengineering Lab ar the University of Oklahoma": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006525.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "anat",
+    "eeg"
+  ],
+  "datatypes": [
+    "anat",
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "OPTIONAL. List of sources of funding (grant numbers)"
+    }
+  ],
+  "acknowledgements": "Please cite the paper with doi: 10.1088/1741-2552/ab7ad3 that reported the dataset for the first time."
+}
