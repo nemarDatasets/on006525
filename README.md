@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006525-blue)](https://doi.org/10.82901/nemar.on006525)
+
 Introduction: The EEG data was recorded using the 128-channel Amps 300 amplifier (Electrical Geodesics Inc., OR, USA) at a sampling frequency of 1000 Hz. 
 The EEG data acquisition was conducted  during the resting.
 Structural MRI data for the same participants were acquired at the University of Oklahoma Health Science Center (OUHSC) MRI facility using a GE MR750 scanner. The scans were obtained with GE’s BRAVO sequence, with a field of view (FOV) of 240 mm and 180 axial slices per slab
