@@ -1,12 +1,31 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Resting EEG",
+  "description": "This dataset contains resting-state EEG recordings collected using a 128-channel Amps 300 amplifier at the University of Oklahoma, alongside structural MRI scans acquired from the same participants. The data support investigation of whole-brain electrophysiological functional connectivity dynamics during resting-state conditions.",
+  "methods_description": "EEG data were recorded with a 128-channel Amps 300 amplifier (Electrical Geodesics Inc.) at 1000 Hz sampling rate during resting state. Structural MRI was acquired using a GE MR750 scanner with GE's BRAVO sequence (FOV=240mm, 180 axial slices per slab). Preprocessing in EEGLAB included band-pass filtering (0.5-100 Hz), notch filtering (58-62 Hz), removal of noisy channels and artifacts (eye blinks, muscle movements, heartbeats), interpolation of bad channels, re-referencing to the average of all electrodes, and downsampling to 250 Hz. No data segments were removed to preserve continuity.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Computational Neuroimaging and Neuroengineering Lab ar the University of Oklahoma": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "functional connectivity"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006525.v1.0.0",
@@ -45,11 +64,11 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "eeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
     "3.2 GB (69 files)"
   ],
@@ -60,43 +79,6 @@
     ".set",
     ".tsv",
     ".yml"
-  ],
-  "description": "A resting-state EEG dataset acquired from 128 channels at 1000 Hz sampling rate using an Electrical Geodesics amplifier system, complemented by structural MRI data from a GE MR750 scanner. The dataset includes preprocessed EEG signals with artifact removal and channel interpolation, as well as high-resolution anatomical imaging. This multimodal neuroimaging resource enables investigation of whole-brain electrophysiological functional connectivity dynamics during rest.",
-  "methods_description": "EEG data were recorded using a 128-channel Amps 300 amplifier (Electrical Geodesics Inc.) at 1000 Hz sampling frequency during resting state. Preprocessing included band-pass filtering (0.5–100 Hz), notch filtering (58–62 Hz), artifact removal, bad channel interpolation, and re-referencing to average. Data were downsampled to 250 Hz. Structural MRI was acquired using a GE MR750 scanner with BRAVO sequence (FOV 240 mm, 180 axial slices).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "functional connectivity"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "EGI Amps 300"
-    },
-    {
-      "term": "GE MR750"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "preprocessing"
-    },
-    {
-      "term": "artifact removal"
-    }
   ],
   "source_hash": "55b3b0e4a23cc9247ae1c38cab606e24c3f1b93e741ab25761d2598909602790"
 }
