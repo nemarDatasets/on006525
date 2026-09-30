@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Resting EEG",
-  "description": "This dataset contains resting-state EEG recordings collected using a 128-channel Amps 300 amplifier at the University of Oklahoma, alongside structural MRI scans acquired from the same participants. The data support investigation of whole-brain electrophysiological functional connectivity dynamics during resting-state conditions.",
-  "methods_description": "EEG data were recorded with a 128-channel Amps 300 amplifier (Electrical Geodesics Inc.) at 1000 Hz sampling rate during resting state. Structural MRI was acquired using a GE MR750 scanner with GE's BRAVO sequence (FOV=240mm, 180 axial slices per slab). Preprocessing in EEGLAB included band-pass filtering (0.5-100 Hz), notch filtering (58-62 Hz), removal of noisy channels and artifacts (eye blinks, muscle movements, heartbeats), interpolation of bad channels, re-referencing to the average of all electrodes, and downsampling to 250 Hz. No data segments were removed to preserve continuity.",
+  "description": "Resting-state EEG recorded with a 128-channel EGI system from participants who also underwent structural MRI. The dataset was first reported in a study of whole-brain electrophysiological functional connectivity dynamics in resting-state EEG. Data were preprocessed with band-pass and notch filtering, artifact and bad-channel handling, average re-referencing, and downsampling to 250 Hz.",
+  "methods_description": "EEG was recorded with a 128-channel Amps 300 amplifier (Electrical Geodesics Inc.) at 1000 Hz during rest. Structural MRI was acquired on a GE MR750 scanner using the BRAVO sequence (FOV 240 mm, 180 axial slices per slab). Preprocessing in EEGLAB included a 0.5-100 Hz band-pass filter, a 58-62 Hz notch filter, removal of noisy channels and artifacts, interpolation of bad channels, average re-referencing, and downsampling to 250 Hz.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,10 +20,10 @@
       "term": "functional connectivity"
     },
     {
-      "term": "structural MRI"
+      "term": "high-density EEG"
     },
     {
-      "term": "electrophysiology"
+      "term": "structural MRI"
     }
   ],
   "related_identifiers": [
@@ -70,7 +70,7 @@
     "eeg"
   ],
   "sizes": [
-    "3.2 GB (69 files)"
+    "3.00 GB (69 files)"
   ],
   "formats": [
     ".gz",
